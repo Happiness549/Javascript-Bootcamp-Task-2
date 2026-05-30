@@ -1,0 +1,15 @@
+#form{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: lightblue;
+    height: 50px;
+    
+}
