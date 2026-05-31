@@ -13,13 +13,20 @@
 
         <form action="" id="form">
             <label for="name">Student's Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter student's name">
+            <input type="text" id="student-name" name="name" placeholder="Enter student's name">
             <label for="marks">Student's Mark</label>
-            <input type="text" id="mark" name="mark" placeholder="Enter student's mark">
+            <input type="number" id="student-mark" name="mark" placeholder="Enter student's mark">
             
+             <button type="submit" id='submit-button'>Submit</button>
         </form>
 
-        <button type="submit" id='button'>Submit</button>
+        <div id="results"></div>
+        <ul id="student-list">
+        </ul>
+
+       
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
