@@ -9,7 +9,7 @@ buttonElement.addEventListener("click", function(event){
 
     event.preventDefault();
 
-    //Read the input
+    
     const name = nameInput.value.trim();
     const mark = markInput.value.trim();
 
@@ -21,7 +21,7 @@ buttonElement.addEventListener("click", function(event){
         Number(mark) >100 
 
     ) {
-        resultElement.textContent = "Put name and mark";
+        resultElement.textContent = "Put correct name and mark";
         return;
     }
 
